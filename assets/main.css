@@ -1,0 +1,142 @@
+@import './base.css';
+ 
+.header {
+
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 0;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+      
+}
+
+.header .logo img{
+
+    width: 35px;
+}
+
+.header .logo a {
+    color: var(--mainColor);
+}
+.header .nav a {
+    color: #101828;
+}
+
+.active{
+
+    font-weight: 900;
+}
+
+.header .auth a{
+
+    font-family: var(--subFont);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.header .auth a:first-of-type{
+   border: 1px solid var(--mainColor);
+   color: var(--mainColor);
+}
+.header .auth a:last-of-type{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+.nav ul{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+@media (max-width:992px){
+    .nav{
+        display: none;
+    }
+    
+}
+
+.footer {
+   background-color: #393E46;
+   color: #fff;
+   padding: 50px  0;
+}
+.footer a{
+    color:white;
+    
+} 
+.footer .row{
+    gap: 40px;
+}
+
+.footer .footer-left-side,
+.footer .footer-right-side
+{
+    width: calc( (100% - 40px) / 2);
+}
+
+ .footer-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer .footer-left-side .logo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.footer .footer-left-side .logo img{
+    width: 35px;
+    color: #F4F4F4;
+
+
+}
+.footer .footer-left-side p{
+
+    color:#F4F4F4 ;
+    line-height: 25px ;
+
+}
+.footer .footer-left-side .icones{
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.footer .footer-left-side .icones img{
+   border:1px solid white;
+   
+   width: 15px;
+   height: 15px;
+   padding: 10px;
+   box-sizing: content-box;
+} 
+.footer-right-side .footer-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+.footer-right-side .footer-item ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
