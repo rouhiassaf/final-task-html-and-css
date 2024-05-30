@@ -6,6 +6,7 @@
     top: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px 0;
+    background-color: #fff;
 }
 
 .header .logo {
@@ -60,6 +61,104 @@
     }
     
 }
+
+{/* end header*/
+
+/* start tsetimonial */
+}
+.testimonials{
+    text-align: center;
+    padding: 40px 50px;
+
+}
+.testimonials h2{
+    margin-bottom: 20px;
+}
+
+.testimonials img{
+
+}
+
+.testimonials .row{
+    gap: 40px;
+   
+}
+
+.Testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: calc( (100% - 40px) / 2 );
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-shadow: 0px 8.23719596862793px 8.23719596862793px rgba(0, 0, 0, 0.1);
+   position: relative;
+}
+
+
+.Testimonial::after{
+
+    content: '';
+    border-top: 40px solid #a3a3a3;
+    
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+
+
+}
+
+
+
+.Testimonial .user-info{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Testimonial .user-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.Testimonial .user-info .user-data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+    
+
+}
+
+.Testimonial .user-info .user-data span{
+font-size: 13px;
+color: #969696;
+}
+
+.Testimonial .rating{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.Testimonial  q{
+    color: #646464;
+
+}
+
+.Testimonial blockquote q{
+    display: inline-block;
+    padding:0 10px ;
+}
+
+
 
 .footer {
    background-color: #393E46;
